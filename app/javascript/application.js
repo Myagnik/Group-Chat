@@ -3,13 +3,10 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import 'jquery'
+import 'semantic-ui'
+window.jQuery = jquery
+window.$ = jquery
 
+$(document).ready(function(){ console.log("kai po che")});
 
-$(document).on('turbolinks:load', function() {
-    $('.ui.dropdown').dropdown();
-    $('.message .close').on('click', function() {
-    $(this).closest('.message').transition('fade');
-  });
-  })
-
-  
+import "./channels"

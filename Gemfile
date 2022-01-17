@@ -12,12 +12,16 @@ gem "sqlite3", "~> 1.4"
 gem "puma", "~> 5.0"
 
 gem "importmap-rails"
+gem 'tailwindcss-rails'
 
 gem "turbo-rails"
 
 gem 'turbolinks'
 
 gem "stimulus-rails"
+
+gem 'webpacker'
+
 
 gem "jbuilder"
 
