@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.7.0"
+ruby "2.7.1"
 gem 'sass-rails'
 gem "rails", "~> 7.0.0"
 
@@ -24,7 +24,7 @@ gem "stimulus-rails"
 
 gem "jbuilder"
 
-#gem 'semantic-ui-sass'
+gem 'semantic-ui-sass'
 gem 'jquery-rails'
 
 gem 'hirb'

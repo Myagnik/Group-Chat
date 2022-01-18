@@ -6,9 +6,9 @@ import 'jquery'
 import 'semantic-ui'
 import "channels"
 
-window.jQuery = jquery
-window.$ = jquery
+// window.jQuery = jquery
+// window.$ = jquery
 
 alert("This javascript thing is reals making me mad!");
 
-import "./channels"
+import "channels"
