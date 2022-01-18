@@ -20,12 +20,11 @@ gem 'turbolinks'
 
 gem "stimulus-rails"
 
-gem 'webpacker'
-
+#gem 'webpacker'
 
 gem "jbuilder"
 
-gem 'semantic-ui-sass'
+#gem 'semantic-ui-sass'
 gem 'jquery-rails'
 
 gem 'hirb'

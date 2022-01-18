@@ -4,9 +4,11 @@ import "@hotwired/turbo-rails"
 import "controllers"
 import 'jquery'
 import 'semantic-ui'
+import "channels"
+
 window.jQuery = jquery
 window.$ = jquery
 
-$(document).ready(function(){ console.log("kai po che")});
+alert("This javascript thing is reals making me mad!");
 
 import "./channels"
