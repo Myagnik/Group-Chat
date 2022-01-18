@@ -11,7 +11,7 @@ consumer.subscriptions.create("ChatroomChannel", {
 
   received(data) {
     //alert(data.body)
-   
-    $("#message-container").append(data.mod_message)
+    // console.log(data,"From Chatroom controller")
+    $("#message-container")[0].append(data.mod_message)
   }
 });

@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "2.7.0"
+ruby "2.7.1"
 gem 'sass-rails'
 gem "rails", "~> 7.0.0"
 
@@ -20,8 +20,7 @@ gem 'turbolinks'
 
 gem "stimulus-rails"
 
-gem 'webpacker'
-
+#gem 'webpacker'
 
 gem "jbuilder"
 
