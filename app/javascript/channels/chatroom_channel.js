@@ -3,6 +3,8 @@ import consumer from "./consumer"
 consumer.subscriptions.create("ChatroomChannel", {
   connected() {
     // Called when the subscription is ready for use on the server
+
+    alert("connected to chatroommmchannel")
   },
 
   disconnected() {
@@ -11,7 +13,7 @@ consumer.subscriptions.create("ChatroomChannel", {
 
   received(data) {
     //alert(data.body)
-     //console.log(data,"From Chatroom controller")
+    // console.log(data,"Froom Chatroom controller")
     $("#message-container").append(data.mod_message)
   }
 });
