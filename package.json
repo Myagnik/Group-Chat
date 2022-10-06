@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@doabit/semantic-ui-sass": "^2.4.5",
+    "@hotwired/stimulus": "^3.1.0",
     "@rails/webpacker": "5.4.3",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
@@ -13,5 +14,4 @@
   "scripts": {
     "build": "webpack"
   }
-
 }
