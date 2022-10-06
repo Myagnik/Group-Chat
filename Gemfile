@@ -7,7 +7,6 @@ gem "rails", "~> 7.0.0"
 
 gem "sprockets-rails"
 
-gem "sqlite3", "~> 1.4"
 
 gem "puma", "~> 5.0"
 
@@ -21,7 +20,7 @@ gem 'turbolinks'
 gem "stimulus-rails"
 
 gem 'webpacker'
-
+gem "ffi"
 
 gem "jbuilder"
 
@@ -43,6 +42,7 @@ end
 
 group :development do
   gem "web-console"
+  gem "sqlite3", "~> 1.4"
 
 end
 
@@ -50,4 +50,7 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
   gem "webdrivers"
+end
+
+group :production do
 end

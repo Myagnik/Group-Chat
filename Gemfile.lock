@@ -259,6 +259,7 @@ DEPENDENCIES
   byebug
   capybara
   debug
+  ffi
   hirb
   importmap-rails
   jbuilder
