@@ -7,6 +7,4 @@ import 'semantic-ui'
 window.jQuery = jquery
 window.$ = jquery
 
-$(document).ready(function(){ console.log("kai po che")});
-
 import "./channels"

@@ -11,7 +11,9 @@ consumer.subscriptions.create("ChatroomChannel", {
 
   received(data) {
     //alert(data.body)
-   
+    console.log("Received data:", data);
+
     $("#message-container").append(data.mod_message)
+    $('#message_body').val('');
   }
 });
